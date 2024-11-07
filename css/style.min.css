@@ -190,3 +190,41 @@ h6 {
     background: var(--primary);
     transform: skew(40deg);
 }
+/* General style for contact buttons */
+.contact-button {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Call button on the left */
+.call-button {
+    left: 20px;
+    background-color: #007bff;
+}
+
+.call-button:hover {
+    background-color: #0056b3;
+}
+
+/* WhatsApp button on the right */
+.whatsapp-button {
+    right: 20px;
+    background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+    background-color: #1da851;
+}
+
+/* Icon adjustments */
+.contact-button i {
+    font-size: 20px;
+}
