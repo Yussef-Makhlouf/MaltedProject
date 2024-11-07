@@ -1,12 +1,8 @@
-/* Prevent any scrolling on mobile */
 
-
-/* Set 100vh height for main container to fit viewport on mobile */
 .container-fluid, .page-header, .portfolio-item, .carousel-caption, .footer {
     overflow: hidden;
 }
 
-/* General Styles */
 *,
 .h1,
 .h2,
